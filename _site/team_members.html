@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>Team Member's</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+
+<body>
+  <header>
+  <nav>
+    <div class="wrapper">
+      <a href="/">
+        <div class="logo"></div>
+      </a>
+      <ul>
+        
+        <li><a href="/" >Home</a></li>
+        
+        <li><a href="/about.html" >About</a></li>
+        
+        <li><a href="/services.html" >Services</a></li>
+        
+        <li><a href="/team_members.html" class="current" >Team Members</a></li>
+        
+        <li><a href="/blog.html" >Blog</a></li>
+        
+      </ul>
+      <div class="hamburger-btn"></div>
+    </div>
+    </div>
+  </nav>
+</header>
+<div class="hamburger-menu">
+  <div class="close-btn"></div>
+  <ul>
+    
+    <li><a href="/" >Home</a>
+    </li>
+    
+    <li><a href="/about.html" >About</a>
+    </li>
+    
+    <li><a href="/services.html" >Services</a>
+    </li>
+    
+    <li><a href="/team_members.html" class="current" >Team Members</a>
+    </li>
+    
+    <li><a href="/blog.html" >Blog</a>
+    </li>
+    
+  </ul>
+</div>
+  <section class="container">
+    <div class="main">
+      <h1>Team Member's</h1>
+      <ul>
+  
+  <li>
+    <h2><a href="/lawyers/darren.html">Darren B. Becker</a></h2>
+    <h3>Labour and Employment Lawyer</h3>
+  </li>
+  
+  <li>
+    <h2><a href="/lawyers/farrah.html">Farrah Kohorst</a></h2>
+    <h3>Family Lawyer</h3>
+  </li>
+  
+  <li>
+    <h2><a href="/lawyers/kim.html">Kim Nutz</a></h2>
+    <h3>Labour and Employment Lawyer</h3>
+  </li>
+  
+</ul>
+
+    </div>
+  </section>
+  <footer>&copy; 2020 Jakey, Jakey, and Jakey Associates.</footer>
+  <script>
+    const hamburgerBtn = document.querySelector('.hamburger-btn')
+    const closeBtn = document.querySelector('.close-btn')
+    const menu = document.querySelector('.hamburger-menu')
+
+    hamburgerBtn.addEventListener('click', () => {
+      menu.className = 'hamburger-menu open'
+    })
+
+    closeBtn.addEventListener('click', () => {
+      menu.className = 'hamburger-menu close'
+    })
+  </script>
+</body>
+
+</html>

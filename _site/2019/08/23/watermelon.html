@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>Watermelon</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+
+<body>
+  <header>
+  <nav>
+    <div class="wrapper">
+      <a href="/">
+        <div class="logo"></div>
+      </a>
+      <ul>
+        
+        <li><a href="/" >Home</a></li>
+        
+        <li><a href="/about.html" >About</a></li>
+        
+        <li><a href="/services.html" >Services</a></li>
+        
+        <li><a href="/team_members.html" >Team Members</a></li>
+        
+        <li><a href="/blog.html" >Blog</a></li>
+        
+      </ul>
+      <div class="hamburger-btn"></div>
+    </div>
+    </div>
+  </nav>
+</header>
+<div class="hamburger-menu">
+  <div class="close-btn"></div>
+  <ul>
+    
+    <li><a href="/" >Home</a>
+    </li>
+    
+    <li><a href="/about.html" >About</a>
+    </li>
+    
+    <li><a href="/services.html" >Services</a>
+    </li>
+    
+    <li><a href="/team_members.html" >Team Members</a>
+    </li>
+    
+    <li><a href="/blog.html" >Blog</a>
+    </li>
+    
+  </ul>
+</div>
+  <section class="container">
+    <div class="main">
+      <h1>Watermelon</h1>
+      <p>
+  23 Aug 2019
+</p>
+
+<p>Watermelon (Citrullus lanatus) is a plant species in the family Cucurbitaceae, a vine-like flowering plant originating in West Africa. It is a highly cultivated fruit worldwide, having more than 1000 varieties.</p>
+
+<p>Watermelon is a scrambling and trailing vine in the flowering plant family Cucurbitaceae. There is evidence from seeds in Pharaoh tombs of watermelon cultivation in Ancient Egypt. Watermelon is grown in favorable climates from tropical to temperate regions worldwide for its large edible fruit, which is a berry with a hard rind and no internal divisions, and is botanically called a pepo. The sweet, juicy flesh is usually deep red to pink, with many black seeds, although seedless varieties exist. The fruit can be eaten raw or pickled, and the rind is edible after cooking. It is commonly consumed as a juice or as an ingredient in mixed beverages.</p>
+
+<p>Considerable breeding effort has developed disease-resistant varieties. Many cultivars are available that produce mature fruit within 100 days of planting. In 2017, China produced about two-thirds of the world total of watermelons.</p>
+
+    </div>
+  </section>
+  <footer>&copy; 2020 Jakey, Jakey, and Jakey Associates.</footer>
+  <script>
+    const hamburgerBtn = document.querySelector('.hamburger-btn')
+    const closeBtn = document.querySelector('.close-btn')
+    const menu = document.querySelector('.hamburger-menu')
+
+    hamburgerBtn.addEventListener('click', () => {
+      menu.className = 'hamburger-menu open'
+    })
+
+    closeBtn.addEventListener('click', () => {
+      menu.className = 'hamburger-menu close'
+    })
+  </script>
+</body>
+
+</html>

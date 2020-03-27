@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>About</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+
+<body>
+  <header>
+  <nav>
+    <div class="wrapper">
+      <a href="/">
+        <div class="logo"></div>
+      </a>
+      <ul>
+        
+        <li><a href="/" >Home</a></li>
+        
+        <li><a href="/about.html" class="current" >About</a></li>
+        
+        <li><a href="/services.html" >Services</a></li>
+        
+        <li><a href="/team_members.html" >Team Members</a></li>
+        
+        <li><a href="/blog.html" >Blog</a></li>
+        
+      </ul>
+      <div class="hamburger-btn"></div>
+    </div>
+    </div>
+  </nav>
+</header>
+<div class="hamburger-menu">
+  <div class="close-btn"></div>
+  <ul>
+    
+    <li><a href="/" >Home</a>
+    </li>
+    
+    <li><a href="/about.html" class="current" >About</a>
+    </li>
+    
+    <li><a href="/services.html" >Services</a>
+    </li>
+    
+    <li><a href="/team_members.html" >Team Members</a>
+    </li>
+    
+    <li><a href="/blog.html" >Blog</a>
+    </li>
+    
+  </ul>
+</div>
+  <section class="container">
+    <div class="main">
+      <h1>About</h1>
+      <p>Founded by youtuber Nakeyjakey, this firm delivers the best legal advice and service in the world. It’s so good that OJ was found ‘not guilty’ even though we all know he did that shit.</p>
+
+<p>Meet our team members!</p>
+
+<p><a href="../team_members.html"><button class="secondary-button">Click here</button></a></p>
+
+<p>Or see what services we can assist you with.</p>
+
+<p><a href="../services.html" class="primary-button">More Info</a></p>
+
+    </div>
+  </section>
+  <footer>&copy; 2020 Jakey, Jakey, and Jakey Associates.</footer>
+  <script>
+    const hamburgerBtn = document.querySelector('.hamburger-btn')
+    const closeBtn = document.querySelector('.close-btn')
+    const menu = document.querySelector('.hamburger-menu')
+
+    hamburgerBtn.addEventListener('click', () => {
+      menu.className = 'hamburger-menu open'
+    })
+
+    closeBtn.addEventListener('click', () => {
+      menu.className = 'hamburger-menu close'
+    })
+  </script>
+</body>
+
+</html>

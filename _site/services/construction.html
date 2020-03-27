@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>Construction</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+
+<body>
+  <header>
+  <nav>
+    <div class="wrapper">
+      <a href="/">
+        <div class="logo"></div>
+      </a>
+      <ul>
+        
+        <li><a href="/" >Home</a></li>
+        
+        <li><a href="/about.html" >About</a></li>
+        
+        <li><a href="/services.html" >Services</a></li>
+        
+        <li><a href="/team_members.html" >Team Members</a></li>
+        
+        <li><a href="/blog.html" >Blog</a></li>
+        
+      </ul>
+      <div class="hamburger-btn"></div>
+    </div>
+    </div>
+  </nav>
+</header>
+<div class="hamburger-menu">
+  <div class="close-btn"></div>
+  <ul>
+    
+    <li><a href="/" >Home</a>
+    </li>
+    
+    <li><a href="/about.html" >About</a>
+    </li>
+    
+    <li><a href="/services.html" >Services</a>
+    </li>
+    
+    <li><a href="/team_members.html" >Team Members</a>
+    </li>
+    
+    <li><a href="/blog.html" >Blog</a>
+    </li>
+    
+  </ul>
+</div>
+  <section class="container">
+    <div class="main">
+      <h1>Construction</h1>
+      <p>Our clients include owners, developers, contractors and subcontractors. Whether it’s a residential, commercial or industrial project, our team is dedicated to helping you keep it on budget and on schedule. Our approach is to limit or avoid disputes by focusing on contract negotiations and dispute resolution mechanisms, and by advising on rights and obligations throughout the construction process. Where disputes are unavoidable, we help you achieve the best possible outcome through mediation and litigation.</p>
+
+<p>Builders’ liens
+Delay and extra work issues
+Construction defects and faulty products
+Changes in scope of work
+Performance Bonds
+Real estate and development contracts
+Negligence and performance issues</p>
+
+    </div>
+  </section>
+  <footer>&copy; 2020 Jakey, Jakey, and Jakey Associates.</footer>
+  <script>
+    const hamburgerBtn = document.querySelector('.hamburger-btn')
+    const closeBtn = document.querySelector('.close-btn')
+    const menu = document.querySelector('.hamburger-menu')
+
+    hamburgerBtn.addEventListener('click', () => {
+      menu.className = 'hamburger-menu open'
+    })
+
+    closeBtn.addEventListener('click', () => {
+      menu.className = 'hamburger-menu close'
+    })
+  </script>
+</body>
+
+</html>

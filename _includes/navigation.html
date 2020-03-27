@@ -1,0 +1,25 @@
+<header>
+  <nav>
+    <div class="wrapper">
+      <a href="/">
+        <div class="logo"></div>
+      </a>
+      <ul>
+        {% for item in site.data.navigation %}
+        <li><a href="{{ item.link }}" {% if page.url == item.link %}class="current" {% endif %}>{{ item.name }}</a></li>
+        {% endfor %}
+      </ul>
+      <div class="hamburger-btn"></div>
+    </div>
+    </div>
+  </nav>
+</header>
+<div class="hamburger-menu">
+  <div class="close-btn"></div>
+  <ul>
+    {% for item in site.data.navigation %}
+    <li><a href="{{ item.link }}" {% if page.url == item.link %}class="current" {% endif %}>{{ item.name }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

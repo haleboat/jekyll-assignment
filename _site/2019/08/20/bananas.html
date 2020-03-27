@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>Bananas</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+
+<body>
+  <header>
+  <nav>
+    <div class="wrapper">
+      <a href="/">
+        <div class="logo"></div>
+      </a>
+      <ul>
+        
+        <li><a href="/" >Home</a></li>
+        
+        <li><a href="/about.html" >About</a></li>
+        
+        <li><a href="/services.html" >Services</a></li>
+        
+        <li><a href="/team_members.html" >Team Members</a></li>
+        
+        <li><a href="/blog.html" >Blog</a></li>
+        
+      </ul>
+      <div class="hamburger-btn"></div>
+    </div>
+    </div>
+  </nav>
+</header>
+<div class="hamburger-menu">
+  <div class="close-btn"></div>
+  <ul>
+    
+    <li><a href="/" >Home</a>
+    </li>
+    
+    <li><a href="/about.html" >About</a>
+    </li>
+    
+    <li><a href="/services.html" >Services</a>
+    </li>
+    
+    <li><a href="/team_members.html" >Team Members</a>
+    </li>
+    
+    <li><a href="/blog.html" >Blog</a>
+    </li>
+    
+  </ul>
+</div>
+  <section class="container">
+    <div class="main">
+      <h1>Bananas</h1>
+      <p>
+  20 Aug 2019
+</p>
+
+<p>A banana is an edible fruit – botanically a berry – produced by several kinds
+of large herbaceous flowering plants in the genus Musa.</p>
+
+<p>In some countries, bananas used for cooking may be called “plantains”,
+distinguishing them from dessert bananas. The fruit is variable in size, color,
+and firmness, but is usually elongated and curved, with soft flesh rich in
+starch covered with a rind, which may be green, yellow, red, purple, or brown
+when ripe.</p>
+
+    </div>
+  </section>
+  <footer>&copy; 2020 Jakey, Jakey, and Jakey Associates.</footer>
+  <script>
+    const hamburgerBtn = document.querySelector('.hamburger-btn')
+    const closeBtn = document.querySelector('.close-btn')
+    const menu = document.querySelector('.hamburger-menu')
+
+    hamburgerBtn.addEventListener('click', () => {
+      menu.className = 'hamburger-menu open'
+    })
+
+    closeBtn.addEventListener('click', () => {
+      menu.className = 'hamburger-menu close'
+    })
+  </script>
+</body>
+
+</html>

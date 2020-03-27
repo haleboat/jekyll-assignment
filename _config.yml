@@ -1,0 +1,25 @@
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "" # the name of your site, e.g. ACME Corp.
+
+collections:
+  lawyers:
+    output: true
+  services:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "lawyers"
+    values:
+      layout: "team_member"
+  - scope:
+      path: ""
+      type: "services"
+    values:
+      layout: "service"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
