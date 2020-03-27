@@ -1,3 +1,3 @@
 # jekyll-assignment
 
-(Netlify Link)[https://haleboat-jekyll-assignment.netlify.com/]
+[Netlify Link](https://haleboat-jekyll-assignment.netlify.com/)
