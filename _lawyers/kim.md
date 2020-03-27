@@ -2,7 +2,7 @@
 layout: team_member
 short_name: kim
 name: Kim Nutz
-name: Kim Nutz
+title: Kim Nutz
 job_title: Labour and Employment Lawyer
 ---
 
